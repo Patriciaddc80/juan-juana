@@ -888,3 +888,12 @@ ul {
   font-size: 13px;
   color: var(--color-text-soft);
 }
+.site-footer a {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color 0.3s var(--ease);
+}
+.site-footer a:hover {
+  color: var(--color-text);
+}
